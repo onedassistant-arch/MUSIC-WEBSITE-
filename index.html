@@ -1,0 +1,1149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Krishnanjali Musical Training Centre | Premier Music & Dance Academy in RS Puram, Coimbatore</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description"
+        content="26 Years of Excellence in Music & Dance Training. Professional Weekend Batches in Carnatic Vocal, Bharathanatyam, Keyboard, Guitar, Violin, Drums, Flute & more. Trinity College London Graded Preparation in RS Puram, Coimbatore.">
+    <meta name="keywords"
+        content="Music Classes Coimbatore, Bharathanatyam Classes RS Puram, Carnatic Vocal Training, Keyboard Classes Coimbatore, Guitar Classes RS Puram, Weekend Music Batches, Trinity College London Music, Krishnanjali Music RS Puram">
+    <meta name="author" content="Krishnanjali Musical Training Centre">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Krishnanjali Musical Training Centre | Coimbatore">
+    <meta property="og:description"
+        content="Nurturing artistes and preserving tradition through 26 years of excellence in classical music & dance classes.">
+    <meta property="og:image" content="hero_dance.png">
+    <meta property="og:type" content="website">
+
+    <!-- Style Sheets -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Floating Background Note Canvas -->
+    <canvas id="canvasParticles"></canvas>
+
+    <!-- NAVIGATION HEADER -->
+    <nav id="navBar">
+        <div class="nav-inner">
+            <a href="#hero" class="nav-logo" id="navLogo">
+                <div class="nav-logo-icon"><i class="fa fa-music"></i></div>
+                <div class="nav-logo-text">
+                    <span>Krishnanjali</span>
+                    <span>Musical Training Centre</span>
+                </div>
+            </a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#courses">Courses</a></li>
+                <li><a href="#heritageSynth">Heritage</a></li>
+                <li><a href="#threeDInstrument">Studio</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="https://wa.me/919443742695" class="btn nav-cta" target="_blank">Join Now</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger" aria-label="Toggle Navigation Menu">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- MOBILE NAVIGATION DRAWER -->
+    <div class="mobile-menu" id="mobileMenu">
+        <a href="#about" onclick="closeMobileMenu()">About Academy</a>
+        <a href="#courses" onclick="closeMobileMenu()">Our Courses</a>
+        <a href="#heritageSynth" onclick="closeMobileMenu()">Heritage Play</a>
+        <a href="#threeDInstrument" onclick="closeMobileMenu()">3D Studio</a>
+        <a href="#fees" onclick="closeMobileMenu()">Fee Structure</a>
+        <a href="#schedule" onclick="closeMobileMenu()">Class Schedule</a>
+        <a href="#gallery" onclick="closeMobileMenu()">Gallery</a>
+        <a href="#rules" onclick="closeMobileMenu()">Regulations</a>
+        <a href="#contact" onclick="closeMobileMenu()">Contact Us</a>
+        <a href="https://wa.me/919443742695" target="_blank" style="color:var(--gold); border-bottom:none;"><i
+                class="fa-brands fa-whatsapp"></i> Chat On WhatsApp</a>
+    </div>
+
+    <!-- HERO SECTION -->
+    <section id="hero">
+        <div class="hero-pattern"></div>
+        <div class="hero-deco"></div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-left reveal">
+                    <div class="hero-badge">🏆 Celebrating 26 Years of Excellence</div>
+                    <h1 class="hero-title">
+                        Shaping Artistes, <br>Preserving <span>Tradition</span>
+                    </h1>
+                    <p class="hero-subtitle">
+                        Coimbatore's premier cultural training academy. Admissions open for professional weekend classes
+                        in Carnatic vocal, Bharathanatyam, and popular musical instruments.
+                    </p>
+                    <div class="hero-pills">
+                        <span class="pill"><i class="fa fa-calendar-alt"></i> Saturday & Sunday Only</span>
+                        <span class="pill"><i class="fa fa-award"></i> Trinity Graded Exam Prep</span>
+                        <span class="pill"><i class="fa fa-heart"></i> Since 1998</span>
+                    </div>
+                    <div class="hero-btns">
+                        <a href="https://wa.me/919443742695?text=Hello!%20I%20am%20interested%20in%20joining%20Krishnanjali."
+                            class="btn btn-primary" target="_blank"><i class="fa fa-user-plus"></i> Enroll Today</a>
+                        <a href="#courses" class="btn btn-outline"><i class="fa fa-guitar"></i> View Courses</a>
+                    </div>
+                </div>
+                <div class="hero-right reveal">
+                    <div class="hero-graphic">
+                        <img src="hero_dance.png"
+                            alt="Bharathanatyam classical dancer in premium maroon gold dress">
+                        <div class="hero-graphic-overlay"></div>
+                        <div class="hero-graphic-stats">
+                            <div class="hero-stat-item">
+                                <div class="hero-stat-num">26+</div>
+                                <div class="hero-stat-lbl">Years</div>
+                            </div>
+                            <div class="hero-stat-item">
+                                <div class="hero-stat-num">10+</div>
+                                <div class="hero-stat-lbl">Courses</div>
+                            </div>
+                            <div class="hero-stat-item">
+                                <div class="hero-stat-num">15</div>
+                                <div class="hero-stat-lbl">Max / Batch</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-tag">Legacy & Vision</span>
+                <h2 class="section-title">About <span>Krishnanjali</span></h2>
+                <div class="gold-divider"></div>
+                <p class="section-subtitle">Rooted in rich Indian heritage, flourishing through modern academic
+                    discipline.</p>
+            </div>
+            <div class="about-grid">
+                <div class="about-visual reveal">
+                    <div class="about-card">
+                        <div class="about-badge-ring">
+                            <div class="about-badge-inner">
+                                <div class="big-num">26</div>
+                                <p>Years of<br>Artistry</p>
+                            </div>
+                        </div>
+                        <div class="about-highlights">
+                            <div class="highlight-mini">
+                                <i class="fa fa-microphone-lines"></i>
+                                <span>Vocal</span>
+                            </div>
+                            <div class="highlight-mini">
+                                <i class="fa fa-person-dress"></i>
+                                <span>Dance</span>
+                            </div>
+                            <div class="highlight-mini">
+                                <i class="fa fa-music"></i>
+                                <span>Instruments</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-content reveal">
+                    <h3>Nurturing Musical Aspirations Since 1998</h3>
+                    <p>
+                        Established in R.S.Puram, Coimbatore, **Krishnanjali Musical Training Centre** stands as a
+                        beacon of academic excellence in fine arts. Over the past 26 years, we have successfully
+                        nurtured thousands of students, guiding them from fundamentals to prestigious stage recitals.
+                    </p>
+                    <p>
+                        We combine authentic traditional instructions with global curricula, preparing learners for
+                        recognized graded examinations through **Trinity College London** (for Western instruments) and
+                        **Bridge Academy Chennai** (for classical art forms).
+                    </p>
+                    <div class="about-features">
+                        <div class="feature-item"><i class="fa-solid fa-circle-check"></i><span>Trinity & Bridge Academy
+                                Exams</span></div>
+                        <div class="feature-item"><i class="fa-solid fa-circle-check"></i><span>Weekend Classes (Sat &
+                                Sun)</span></div>
+                        <div class="feature-item"><i class="fa-solid fa-circle-check"></i><span>Small Focused Batches
+                                (Max 15)</span></div>
+                        <div class="feature-item"><i class="fa-solid fa-circle-check"></i><span>Annual Stage Performance
+                                Opportunities</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- COURSES SECTION -->
+    <section id="courses">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-tag">Our Programs</span>
+                <h2 class="section-title">Courses We <span>Offer</span></h2>
+                <div class="gold-divider"></div>
+                <p class="section-subtitle">Curated pathways in classical vocal, traditional dance, and global
+                    instrumental modules.</p>
+            </div>
+            <div class="courses-grid reveal">
+                <!-- Vocal -->
+                <div class="course-card">
+                    <div class="course-img-wrapper">
+                        <img src="carnatic_vocal.png"
+                            alt="Carnatic Vocal classical music singer recital scene">
+                        <div class="course-img-overlay"></div>
+                        <div class="course-icon-badge">🎤</div>
+                    </div>
+                    <div class="course-card-body">
+                        <div class="course-name">Carnatic Vocal</div>
+                        <p class="course-desc">Master South Indian classical singing. Detailed training in Sarali
+                            Swaras, Varnams, and rich Keerthanas.</p>
+                        <div class="course-meta">
+                            <span class="meta-tag">All Ages</span><span class="meta-tag">Weekend slots</span>
+                        </div>
+                        <button class="btn-enquire" onclick="openEnquiry('Carnatic Vocal')">Enquire Program</button>
+                    </div>
+                </div>
+                <!-- Dance -->
+                <div class="course-card">
+                    <div class="course-img-wrapper">
+                        <img src="hero_dance.png"
+                            alt="Bharathanatyam classical Indian dancer golden dress">
+                        <div class="course-img-overlay"></div>
+                        <div class="course-icon-badge">💃</div>
+                    </div>
+                    <div class="course-card-body">
+                        <div class="course-name">Bharathanatyam</div>
+                        <p class="course-desc">Traditional dance covering Adavus, hand gestures (mudras), expressive
+                            Abhinaya, and stage presence.</p>
+                        <div class="course-meta">
+                            <span class="meta-tag">Age 5+</span><span class="meta-tag">Weekend slots</span>
+                        </div>
+                        <button class="btn-enquire" onclick="openEnquiry('Bharathanatyam')">Enquire Program</button>
+                    </div>
+                </div>
+                <!-- Keyboard -->
+                <div class="course-card">
+                    <div class="course-img-wrapper">
+                        <img src="western_instruments.png"
+                            alt="Sleek black keyboard synthesizer and audio layout">
+                        <div class="course-img-overlay"></div>
+                        <div class="course-icon-badge">🎹</div>
+                    </div>
+                    <div class="course-card-body">
+                        <div class="course-name">Keyboard</div>
+                        <p class="course-desc">Western scales, chords, and sheet music reading. Thorough preparation for
+                            Trinity College examinations.</p>
+                        <div class="course-meta">
+                            <span class="meta-tag">Age 6+</span><span class="meta-tag">Trinity Prep</span>
+                        </div>
+                        <button class="btn-enquire" onclick="openEnquiry('Keyboard')">Enquire Program</button>
+                    </div>
+                </div>
+                <!-- Guitar -->
+                <div class="course-card">
+                    <div class="course-img-wrapper">
+                        <img src="western_instruments.png"
+                            alt="Acoustic and classical guitar premium studio layout">
+                        <div class="course-img-overlay"></div>
+                        <div class="course-icon-badge">🎸</div>
+                    </div>
+                    <div class="course-card-body">
+                        <div class="course-name">Guitar</div>
+                        <p class="course-desc">Learn fingerpicking, basic-to-advanced chords, strumming patterns, and
+                            contemporary acoustic melodies.</p>
+                        <div class="course-meta">
+                            <span class="meta-tag">Age 8+</span><span class="meta-tag">Weekend slots</span>
+                        </div>
+                        <button class="btn-enquire" onclick="openEnquiry('Guitar')">Enquire Program</button>
+                    </div>
+                </div>
+                <!-- Violin -->
+                <div class="course-card">
+                    <div class="course-img-wrapper">
+                        <img src="classical_instruments.png"
+                            alt="Violin placed elegantly with bow on rich dark cloth">
+                        <div class="course-img-overlay"></div>
+                        <div class="course-icon-badge">🎻</div>
+                    </div>
+                    <div class="course-card-body">
+                        <div class="course-name">Violin</div>
+                        <p class="course-desc">Authentic bowing postures and tone control. Offered in both Indian
+                            classical and Western formats.</p>
+                        <div class="course-meta">
+                            <span class="meta-tag">Age 7+</span><span class="meta-tag">Weekend slots</span>
+                        </div>
+                        <button class="btn-enquire" onclick="openEnquiry('Violin')">Enquire Program</button>
+                    </div>
+                </div>
+                <!-- Flute -->
+                <div class="course-card">
+                    <div class="course-img-wrapper">
+                        <img src="classical_instruments.png"
+                            alt="Indian classical bamboo flute on velvet cloth">
+                        <div class="course-img-overlay"></div>
+                        <div class="course-icon-badge">🪈</div>
+                    </div>
+                    <div class="course-card-body">
+                        <div class="course-name">Flute</div>
+                        <p class="course-desc">Breath management, embouchure details, and beautiful Carnatic classical
+                            compositions on bamboo flute.</p>
+                        <div class="course-meta">
+                            <span class="meta-tag">Age 8+</span><span class="meta-tag">Weekend slots</span>
+                        </div>
+                        <button class="btn-enquire" onclick="openEnquiry('Flute')">Enquire Program</button>
+                    </div>
+                </div>
+                <!-- Veena -->
+                <div class="course-card">
+                    <div class="course-img-wrapper">
+                        <img src="classical_instruments.png"
+                            alt="Traditional grand Saraswati Veena with gold accents">
+                        <div class="course-img-overlay"></div>
+                        <div class="course-icon-badge">🪕</div>
+                    </div>
+                    <div class="course-card-body">
+                        <div class="course-name">Veenai</div>
+                        <p class="course-desc">Traditional Saraswati Veena instructions. Understand standard finger
+                            plucking techniques and gamakas.</p>
+                        <div class="course-meta">
+                            <span class="meta-tag">All Ages</span><span class="meta-tag">Weekend slots</span>
+                        </div>
+                        <button class="btn-enquire" onclick="openEnquiry('Veenai')">Enquire Program</button>
+                    </div>
+                </div>
+                <!-- Drums -->
+                <div class="course-card">
+                    <div class="course-img-wrapper">
+                        <img src="western_instruments.png" alt="Acoustic drum set in golden light">
+                        <div class="course-img-overlay"></div>
+                        <div class="course-icon-badge">🥁</div>
+                    </div>
+                    <div class="course-card-body">
+                        <div class="course-name">Drums</div>
+                        <p class="course-desc">Rhythm coordination, beat patterns, tempo keeping, and rudiments on
+                            western acoustic drum sets.</p>
+                        <div class="course-meta">
+                            <span class="meta-tag">Age 8+</span><span class="meta-tag">Trinity Graded</span>
+                        </div>
+                        <button class="btn-enquire" onclick="openEnquiry('Drums')">Enquire Program</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- INTERACTIVE PLAY HERITAGE SYNTHESIZER -->
+    <section id="heritageSynth">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-tag"
+                    style="border-color: rgba(255,255,255,0.15); color: var(--gold-light);">Experience Sound</span>
+                <h2 class="section-title" style="color: var(--white);">Play Our <span>Heritage</span></h2>
+                <div class="gold-divider"></div>
+                <p class="section-subtitle" style="color: rgba(255,255,255,0.6);">Interact with our high-end digital
+                    synth below. Tap the keys to play Carnatic classical Swaras!</p>
+            </div>
+            <div class="synth-wrapper reveal">
+                <div class="synth-info">
+                    <h3>Indian Swaras Soundboard</h3>
+                    <p>
+                        This interactive soundboard is synthesized live using the **Web Audio API**. Select an
+                        instrument voice and click on the ivory keys to play the primary notes: *Sa, Ri, Ga, Ma, Pa, Da,
+                        Ni, Sa'*.
+                    </p>
+                    <div class="instrument-select">
+                        <button class="instrument-btn active" data-inst="flute"><i class="fa fa-wind"></i> Wind
+                            Flute</button>
+                        <button class="instrument-btn" data-inst="tanpura"><i class="fa fa-guitar"></i> Tanpura /
+                            Reeds</button>
+                    </div>
+                    <div class="visualizer-container">
+                        <canvas id="synthVisualizer"></canvas>
+                    </div>
+                </div>
+                <div class="keyboard-container">
+                    <button class="synth-key" data-note="sa">
+                        <span class="key-lbl">C4</span>
+                        <span class="note-lbl">SA</span>
+                    </button>
+                    <button class="synth-key" data-note="ri">
+                        <span class="key-lbl">D4</span>
+                        <span class="note-lbl">RI</span>
+                    </button>
+                    <button class="synth-key" data-note="ga">
+                        <span class="key-lbl">E4</span>
+                        <span class="note-lbl">GA</span>
+                    </button>
+                    <button class="synth-key" data-note="ma">
+                        <span class="key-lbl">F4</span>
+                        <span class="note-lbl">MA</span>
+                    </button>
+                    <button class="synth-key" data-note="pa">
+                        <span class="key-lbl">G4</span>
+                        <span class="note-lbl">PA</span>
+                    </button>
+                    <button class="synth-key" data-note="da">
+                        <span class="key-lbl">A4</span>
+                        <span class="note-lbl">DA</span>
+                    </button>
+                    <button class="synth-key" data-note="ni">
+                        <span class="key-lbl">B4</span>
+                        <span class="note-lbl">NI</span>
+                    </button>
+                    <button class="synth-key" data-note="sa-high">
+                        <span class="key-lbl">C5</span>
+                        <span class="note-lbl">SA'</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3D INTERACTIVE INSTRUMENT EXPERIENCE -->
+    <section id="threeDInstrument">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-tag" style="border-color: rgba(255,255,255,0.15); color: var(--gold-light);">3D
+                    Interactive Art</span>
+                <h2 class="section-title" style="color: var(--white);">Experience Our <span>Instruments</span></h2>
+                <div class="gold-divider"></div>
+                <p class="section-subtitle" style="color: rgba(255,255,255,0.65);">
+                    Explore traditional instruments in an interactive 3D studio. Rotate the model, hover to inspect, and
+                    click the strings or finger-holes to hear authentic synthesized notes!
+                </p>
+            </div>
+
+            <div class="threeD-wrapper reveal">
+                <div class="threeD-control-deck">
+                    <div class="threeD-header">
+                        <h3>Interactive 3D Studio</h3>
+                        <p>Toggle below to switch the 3D model. Drag on the 3D canvas to rotate it, scroll to zoom, and
+                            click to play!</p>
+                    </div>
+
+                    <div class="instrument-toggle-container">
+                        <button class="threeD-toggle-btn active" id="toggleVeena" data-inst="veena">
+                            <i class="fa-solid fa-guitar"></i> Saraswati Veena
+                        </button>
+                        <button class="threeD-toggle-btn" id="toggleFlute" data-inst="flute">
+                            <i class="fa-solid fa-wind"></i> Golden Flute
+                        </button>
+                    </div>
+
+                    <div class="threeD-details">
+                        <div class="instrument-details-pane active" id="detailsVeena">
+                            <h4>The Divine Saraswati Veena</h4>
+                            <p>An ancient South Indian string instrument. Click on the <strong>golden strings</strong>
+                                to pluck them and hear the vibrant, resonating traditional Swaras.</p>
+                            <div class="guide-pills">
+                                <span class="gpill"><i class="fa-solid fa-arrows-spin"></i> Drag to Rotate</span>
+                                <span class="gpill"><i class="fa-solid fa-magnifying-glass-plus"></i> Scroll to
+                                    Zoom</span>
+                                <span class="gpill"><i class="fa-solid fa-hand-pointer"></i> Click Strings</span>
+                            </div>
+                        </div>
+
+                        <div class="instrument-details-pane" id="detailsFlute">
+                            <h4>The Celestial Golden Flute</h4>
+                            <p>A sacred wind instrument. Click on the <strong>finger holes</strong> along the polished
+                                gold shaft to blow individual notes and play classical ragas.</p>
+                            <div class="guide-pills">
+                                <span class="gpill"><i class="fa-solid fa-arrows-spin"></i> Drag to Rotate</span>
+                                <span class="gpill"><i class="fa-solid fa-magnifying-glass-plus"></i> Scroll to
+                                    Zoom</span>
+                                <span class="gpill"><i class="fa-solid fa-hand-pointer"></i> Click Holes</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Audio Effect Panel (Premium Aesthetics) -->
+                    <div class="audio-effects-panel">
+                        <div class="audio-row">
+                            <span class="audio-label">Resonance Feedback</span>
+                            <span class="audio-value" id="resonanceValue">60%</span>
+                        </div>
+                        <input type="range" id="resonanceSlider" min="10" max="100" value="60" class="effect-slider">
+
+                        <div class="audio-status-box">
+                            <div class="status-indicator"></div>
+                            <span class="status-label">Active Swara: <strong id="activeSwaraBadge">None</strong></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="threeD-canvas-container">
+                    <div class="threeD-loading" id="threeDLoading">
+                        <div class="loading-spinner"></div>
+                        <span>Initializing 3D WebGL Studio...</span>
+                    </div>
+                    <canvas id="threeDCanvas"></canvas>
+                    <div class="canvas-hint">
+                        <i class="fa-solid fa-circle-info"></i> Click to play sound. Drag to inspect model.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CERTIFICATION & RECOGNITION -->
+    <section id="certification">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-tag"
+                    style="border-color: rgba(255,255,255,0.15); color: var(--gold-light);">Accreditation</span>
+                <h2 class="section-title" style="color: var(--white);">Certifications & <span>Affiliations</span></h2>
+                <div class="gold-divider"></div>
+                <p class="section-subtitle" style="color: rgba(255,255,255,0.65);">Structured learning backed by
+                    respected national and international examination boards.</p>
+            </div>
+            <div class="cert-grid reveal">
+                <div class="cert-card">
+                    <div class="cert-logo"><i class="fa fa-award"></i></div>
+                    <h3 class="cert-name">Trinity College London</h3>
+                    <p class="cert-desc">Our Western instrument training (Keyboard, Guitar, Drums, Violin) aligns fully
+                        with Trinity grade syllabus guidelines. We prep students from Grade 1 to 8, helping them secure
+                        global certifications.</p>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-logo"><i class="fa fa-graduation-cap"></i></div>
+                    <h3 class="cert-name">Bridge Academy Chennai</h3>
+                    <p class="cert-desc">Affiliated for classical fine arts examinations. Students of Carnatic Vocal and
+                        Bharathanatyam can sit for standardized graded exams to gain credible academic credits.</p>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-logo"><i class="fa fa-star"></i></div>
+                    <h3 class="cert-name">Annual Day Showcase</h3>
+                    <p class="cert-desc">A grand annual concert stage is provided for every eligible student. Play,
+                        dance, and recite classical ragas before a massive community audience — building solid stage
+                        confidence.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FEES STRUCTURE -->
+    <section id="fees">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-tag">Simple Tariffs</span>
+                <h2 class="section-title">Transparent <span>Pricing</span></h2>
+                <div class="gold-divider"></div>
+                <p class="section-subtitle">Structured, honest fee plans making fine arts training completely
+                    accessible.</p>
+            </div>
+            <div class="fees-grid reveal">
+                <!-- Fee 1 -->
+                <div class="fee-card">
+                    <div class="fee-card-header">
+                        <span class="admissions-badge">Admissions Open</span>
+                        <h3>Vocal & Dance</h3>
+                        <p>Carnatic Vocal & Bharathanatyam Classes</p>
+                    </div>
+                    <div class="fee-body">
+                        <div class="fee-row">
+                            <span class="label">Monthly Structure</span>
+                            <span class="amount">₹1,500</span>
+                        </div>
+                        <div class="fee-row">
+                            <span class="label">Term Plan (4 Months)</span>
+                            <span class="amount">₹4,000</span>
+                        </div>
+                        <div class="fee-row">
+                            <span class="label">Annual Package Plan</span>
+                            <span class="amount">₹10,000</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Fee 2 -->
+                <div class="fee-card">
+                    <div class="fee-card-header">
+                        <span class="admissions-badge">Admissions Open</span>
+                        <h3>Instrumentals</h3>
+                        <p>Keyboard / Guitar / Drums / Violin / Flute / Veenai</p>
+                    </div>
+                    <div class="fee-body">
+                        <div class="fee-row">
+                            <span class="label">Monthly Structure</span>
+                            <span class="amount">₹1,500</span>
+                        </div>
+                        <div class="fee-row">
+                            <span class="label">Term Plan (4 Months)</span>
+                            <span class="amount">₹5,000</span>
+                        </div>
+                        <div class="fee-row">
+                            <span class="label">Annual Package Plan</span>
+                            <span class="amount">₹12,500</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Additional fees -->
+            <div class="additional-fees reveal">
+                <h4>Other Admission Details</h4>
+                <div class="add-fee-grid">
+                    <div class="add-fee-item">
+                        <i class="fa fa-address-card"></i>
+                        <span class="afl">Registration Fee</span>
+                        <span class="afa">₹501</span>
+                    </div>
+                    <div class="add-fee-item">
+                        <i class="fa fa-book-open"></i>
+                        <span class="afl">Study Materials</span>
+                        <span class="afa">₹250</span>
+                    </div>
+                    <div class="add-fee-item">
+                        <i class="fa fa-theater-masks"></i>
+                        <span class="afl">Annual Day Cost</span>
+                        <span class="afa">₹2,000</span>
+                    </div>
+                    <div class="add-fee-item">
+                        <i class="fa fa-clock"></i>
+                        <span class="afl">Late Fee (Weekly)</span>
+                        <span class="afa">₹100</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CLASS SCHEDULE SECTION (TAB PANELS) -->
+    <section id="schedule">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-tag">Timings</span>
+                <h2 class="section-title">Class <span>Schedule</span></h2>
+                <div class="gold-divider"></div>
+                <p class="section-subtitle">Convenient weekend slots designed for school goers, college students, and
+                    working professionals.</p>
+            </div>
+            <div class="schedule-info reveal">
+                <div class="info-card">
+                    <i class="fa fa-calendar-check"></i>
+                    <div class="info-val">Sat & Sun</div>
+                    <div class="info-lbl">Weekend Classes Only</div>
+                </div>
+                <div class="info-card">
+                    <i class="fa fa-graduation-cap"></i>
+                    <div class="info-val">8 / Month</div>
+                    <div class="info-lbl">Classes Per Month</div>
+                </div>
+                <div class="info-card">
+                    <i class="fa fa-users"></i>
+                    <div class="info-val">Max 15</div>
+                    <div class="info-lbl">Students Per Batch</div>
+                </div>
+                <div class="info-card">
+                    <i class="fa fa-clock"></i>
+                    <div class="info-val">Flexible</div>
+                    <div class="info-lbl">Morning & Evening Slots</div>
+                </div>
+            </div>
+
+            <!-- Tab Selectors -->
+            <div class="schedule-tabs-container reveal">
+                <button class="schedule-tab-btn active" data-target="panelSat">Saturday Classes</button>
+                <button class="schedule-tab-btn" data-target="panelSun">Sunday Classes</button>
+            </div>
+
+            <!-- Tab Content Panels -->
+            <div class="schedule-content-wrapper reveal">
+                <!-- Saturday Panel -->
+                <div class="schedule-tab-panel active" id="panelSat">
+                    <table class="schedule-table">
+                        <thead>
+                            <tr>
+                                <th>Session</th>
+                                <th>Timings</th>
+                                <th>Offered Courses</th>
+                                <th>Batch Size Limit</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><span class="day-badge day-sat">Morning Session</span></td>
+                                <td>8:00 AM – 11:00 AM</td>
+                                <td>Bharathanatyam (Advanced), Guitar, Keyboard</td>
+                                <td><span class="batch-badge">Max 15 Students</span></td>
+                            </tr>
+                            <tr>
+                                <td><span class="day-badge day-sat">Evening Session</span></td>
+                                <td>4:00 PM – 7:00 PM</td>
+                                <td>Carnatic Vocal, Bharathanatyam (Beginners), Guitar</td>
+                                <td><span class="batch-badge">Max 15 Students</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <!-- Sunday Panel -->
+                <div class="schedule-tab-panel" id="panelSun">
+                    <table class="schedule-table">
+                        <thead>
+                            <tr>
+                                <th>Session</th>
+                                <th>Timings</th>
+                                <th>Offered Courses</th>
+                                <th>Batch Size Limit</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><span class="day-badge day-sun">Morning Session</span></td>
+                                <td>8:00 AM – 11:00 AM</td>
+                                <td>Keyboard, Violin, Flute, Veenai lessons</td>
+                                <td><span class="batch-badge">Max 15 Students</span></td>
+                            </tr>
+                            <tr>
+                                <td><span class="day-badge day-sun">Evening Session</span></td>
+                                <td>4:00 PM – 7:00 PM</td>
+                                <td>Drums, Tabla, Hindi, Carnatic Vocal recital</td>
+                                <td><span class="batch-badge">Max 15 Students</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <p
+                style="margin-top: 1.5rem; text-align:center; font-style: italic; font-size: 0.8rem; color: var(--text-light);">
+                * Specific session slots may vary. Contact our coordinator to verify slot availability.</p>
+        </div>
+    </section>
+
+    <!-- PREMIUM GALLERY SECTION -->
+    <section id="gallery">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-tag">Visual Snippets</span>
+                <h2 class="section-title">Krishnanjali <span>Gallery</span></h2>
+                <div class="gold-divider"></div>
+                <p class="section-subtitle">Catch beautiful moments of performance, practice, and classical legacy.</p>
+            </div>
+            <div class="gallery-grid reveal">
+                <div class="gallery-item">
+                    <img src="hero_dance.png" alt="Annual concert dance performance showcase">
+                    <div class="gallery-overlay">
+                        <span class="gallery-title">Stage Bharathanatyam</span>
+                        <span class="gallery-tag">Annual Day Recital</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="carnatic_vocal.png" alt="Vocal recital and traditional singer scene">
+                    <div class="gallery-overlay">
+                        <span class="gallery-title">Carnatic Vocal Recital</span>
+                        <span class="gallery-tag">Solo Performance</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="classical_instruments.png"
+                        alt="Classical instrumental ensemble violin flute">
+                    <div class="gallery-overlay">
+                        <span class="gallery-title">Instrumental Ensemble</span>
+                        <span class="gallery-tag">Practice Session</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="western_instruments.png" alt="Synthesizer keyboard workshop session">
+                    <div class="gallery-overlay">
+                        <span class="gallery-title">Keyboard Practice</span>
+                        <span class="gallery-tag">Classroom Hours</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="hero_dance.png" alt="Dance mudras hands training class">
+                    <div class="gallery-overlay">
+                        <span class="gallery-title">Mudra Training</span>
+                        <span class="gallery-tag">Classical Hands Art</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="western_instruments.png" alt="Drums drumkit beats studio class">
+                    <div class="gallery-overlay">
+                        <span class="gallery-title">Drums Practice</span>
+                        <span class="gallery-tag">Percussion Studio</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- RULES & REGULATIONS -->
+    <section id="rules">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-tag">Academy Discipline</span>
+                <h2 class="section-title">Rules & <span>Regulations</span></h2>
+                <div class="gold-divider"></div>
+                <p class="section-subtitle">Discipline is the foundation of artistic excellence. Kindly review our
+                    academy protocols.</p>
+            </div>
+            <div class="rules-grid reveal">
+                <div class="rule-card">
+                    <div class="rule-icon"><i class="fa fa-percentage"></i></div>
+                    <div class="rule-text">
+                        <h4>80% Minimum Attendance</h4>
+                        <p>Consistent learning is vital. Every student must maintain at least 80% monthly class
+                            attendance.</p>
+                    </div>
+                </div>
+                <div class="rule-card">
+                    <div class="rule-icon"><i class="fa fa-ban"></i></div>
+                    <div class="rule-text">
+                        <h4>No Compensations</h4>
+                        <p>Missed weekend sessions cannot be compensated with special weekdays makeup hours. Plan
+                            wisely.</p>
+                    </div>
+                </div>
+                <div class="rule-card">
+                    <div class="rule-icon"><i class="fa fa-calendar-check"></i></div>
+                    <div class="rule-text">
+                        <h4>12 Months Fee Scale</h4>
+                        <p>Fees are calculated and due for all 12 calendar months, irrespective of personal leaves or
+                            public holidays.</p>
+                    </div>
+                </div>
+                <div class="rule-card">
+                    <div class="rule-icon"><i class="fa fa-wallet"></i></div>
+                    <div class="rule-text">
+                        <h4>Late Fee Regulation</h4>
+                        <p>A standard late fine of ₹100 per week is applied for monthly dues paid past the scheduled due
+                            date.</p>
+                    </div>
+                </div>
+                <div class="rule-card">
+                    <div class="rule-icon"><i class="fa fa-file-invoice"></i></div>
+                    <div class="rule-text">
+                        <h4>Enrollment Documents</h4>
+                        <p>Submission of Aadhaar photocopy and two passport-sized color photos is mandatory upon final
+                            admission.</p>
+                    </div>
+                </div>
+                <div class="rule-card">
+                    <div class="rule-icon"><i class="fa fa-music"></i></div>
+                    <div class="rule-text">
+                        <h4>Annual Concert Contribution</h4>
+                        <p>A compulsory contribution of ₹2,000 is required annually for stage arrangements and concert
+                            rentals.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TESTIMONIALS SLIDER SECTION -->
+    <section id="testimonials">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-tag">Reviews</span>
+                <h2 class="section-title">What Parents <span>Say</span></h2>
+                <div class="gold-divider"></div>
+            </div>
+            <div class="reviews-marquee-wrapper reveal">
+                <div class="reviews-marquee-track">
+                    <!-- Group 1 -->
+                    <div class="marquee-group">
+                        <div class="review-card">
+                            <p class="heading">Priya Meenakshi</p>
+                            <p>"Amazing coaching and highly disciplined training styles. My daughter has matured into a
+                                confident Bharathanatyam dancer."</p>
+                            <p>Parent of Dance Student</p>
+                        </div>
+                        <div class="review-card">
+                            <p class="heading">Ramesh Kumar</p>
+                            <p>"Fine academy in Coimbatore! My son has been learning Carnatic Vocal here for 3 years and
+                                passed with excellent grades."</p>
+                            <p>Parent of Vocal Student</p>
+                        </div>
+                        <div class="review-card">
+                            <p class="heading">Anitha Venkat</p>
+                            <p>"The weekend batches are highly structured. I am learning acoustic guitar at 28. The
+                                trainers take immense care."</p>
+                            <p>Adult Guitar Student</p>
+                        </div>
+                    </div>
+                    <!-- Group 2 (Duplicate for Seamless Loop) -->
+                    <div class="marquee-group">
+                        <div class="review-card">
+                            <p class="heading">Priya Meenakshi</p>
+                            <p>"Amazing coaching and highly disciplined training styles. My daughter has matured into a
+                                confident Bharathanatyam dancer."</p>
+                            <p>Parent of Dance Student</p>
+                        </div>
+                        <div class="review-card">
+                            <p class="heading">Ramesh Kumar</p>
+                            <p>"Fine academy in Coimbatore! My son has been learning Carnatic Vocal here for 3 years and
+                                passed with excellent grades."</p>
+                            <p>Parent of Vocal Student</p>
+                        </div>
+                        <div class="review-card">
+                            <p class="heading">Anitha Venkat</p>
+                            <p>"The weekend batches are highly structured. I am learning acoustic guitar at 28. The
+                                trainers take immense care."</p>
+                            <p>Adult Guitar Student</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT & ENQUIRY SECTION -->
+    <section id="contact">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-tag"
+                    style="border-color: rgba(255,255,255,0.15); color: var(--gold-light);">Connect</span>
+                <h2 class="section-title" style="color: var(--white);">Contact <span>Us</span></h2>
+                <div class="gold-divider"></div>
+                <p class="section-subtitle" style="color: rgba(255,255,255,0.6);">Drop by during weekend hours or fill
+                    in our quick enquiry form to request program details.</p>
+            </div>
+
+            <div class="contact-grid reveal">
+                <!-- Contact Info -->
+                <div class="contact-info">
+                    <h3>Krishnanjali Musical<br>Training Centre</h3>
+
+                    <div class="contact-item">
+                        <div class="contact-item-icon"><i class="fa fa-location-dot"></i></div>
+                        <div class="contact-item-text">
+                            <div class="label">Academy Address</div>
+                            <div class="value">New D.No.6-B, Subramaniapuram 2nd Street,<br>LIC Colony,
+                                R.S.Puram,<br>Coimbatore – 641002</div>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-item-icon"><i class="fa fa-phone"></i></div>
+                        <div class="contact-item-text">
+                            <div class="label">Landline Office</div>
+                            <div class="value"><a href="tel:04224507493">0422-4507493</a></div>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-item-icon"><i class="fa fa-mobile-screen"></i></div>
+                        <div class="contact-item-text">
+                            <div class="label">Mobile Coordinates</div>
+                            <div class="value">
+                                <a href="tel:919443742695">94437 42695</a> / <a href="tel:919003748831">90037 48831</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-item-icon"><i class="fa fa-envelope"></i></div>
+                        <div class="contact-item-text">
+                            <div class="label">Email Address</div>
+                            <div class="value"><a href="mailto:krishnamusicals@gmail.com">krishnamusicals@gmail.com</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-btns">
+                        <a href="https://wa.me/919443742695?text=Hello!%20I'd%20like%20to%20enquire%20about%20weekend%20classes."
+                            class="btn whatsapp-btn" target="_blank">
+                            <i class="fa-brands fa-whatsapp"></i> Chat On WhatsApp
+                        </a>
+                        <a href="tel:919443742695" class="btn btn-outline" style="font-size:0.8rem;"><i
+                                class="fa fa-phone"></i> Call Coordinator</a>
+                    </div>
+
+                    <!-- Styled static Map container -->
+                    <div class="map-container">
+                        <div class="map-placeholder">
+                            <i class="fa fa-map-location-dot"></i>
+                            <p>New D.No.6-B, Subramaniapuram 2nd Street, LIC Colony, R.S.Puram, Coimbatore</p>
+                            <a href="https://maps.google.com/?q=LIC+Colony+RS+Puram+Coimbatore" target="_blank"><i
+                                    class="fa fa-location-arrow"></i> Open in Google Maps →</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Form Wrapper -->
+                <div class="contact-form-wrapper">
+                    <h4>Enquiry Form</h4>
+                    <div class="form-group">
+                        <label for="cName">Your Full Name *</label>
+                        <input type="text" id="cName" placeholder="Enter name">
+                    </div>
+                    <div class="form-group">
+                        <label for="cPhone">Mobile Number *</label>
+                        <input type="tel" id="cPhone" placeholder="Enter mobile number">
+                    </div>
+                    <div class="form-group">
+                        <label for="cEmail">Email Address</label>
+                        <input type="email" id="cEmail" placeholder="name@domain.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="cCourse">Program of Interest *</label>
+                        <select id="cCourse">
+                            <option value="">Select a Program</option>
+                            <option value="Carnatic Vocal">Carnatic Vocal</option>
+                            <option value="Bharathanatyam">Bharathanatyam</option>
+                            <option value="Keyboard">Keyboard</option>
+                            <option value="Guitar">Guitar</option>
+                            <option value="Violin">Violin</option>
+                            <option value="Flute">Flute</option>
+                            <option value="Veenai">Veenai</option>
+                            <option value="Drums">Drums</option>
+                            <option value="Tabla">Tabla</option>
+                            <option value="Hindi">Hindi Language</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="cMsg">Personal Message</label>
+                        <textarea id="cMsg"
+                            placeholder="Age of student, preferred timings, experience level etc."></textarea>
+                    </div>
+                    <button class="form-submit" onclick="submitForm()">Send Enquiry 🎵</button>
+                    <p id="formSuccess"
+                        style="display:none; text-align:center; color: var(--gold-light); margin-top: 1.2rem; font-weight:600; font-size:0.85rem;">
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PREMIUM FOOTER -->
+    <footer>
+        <div class="footer-top">
+            <div class="container">
+                <div class="footer-grid">
+                    <div>
+                        <div class="footer-brand-name">🎵 Krishnanjali</div>
+                        <div class="footer-tagline">"Preserving Cultural Legacies through Dedication"</div>
+                        <p class="footer-about">
+                            A premium music & dance training institution located in LIC Colony, R.S.Puram, Coimbatore.
+                            Committed to providing systematic quality fine arts instructions since 1998.
+                        </p>
+                        <div class="social-card">
+                            <ul class="social-iso-ul">
+                                <li class="iso-pro">
+                                    <span></span><span></span><span></span>
+                                    <a href="#" aria-label="Facebook">
+                                        <i class="svg fa-brands fa-facebook-f"></i>
+                                    </a>
+                                    <div class="text">Facebook</div>
+                                </li>
+                                <li class="iso-pro">
+                                    <span></span><span></span><span></span>
+                                    <a href="#" aria-label="Instagram">
+                                        <i class="svg fa-brands fa-instagram"></i>
+                                    </a>
+                                    <div class="text">Instagram</div>
+                                </li>
+                                <li class="iso-pro">
+                                    <span></span><span></span><span></span>
+                                    <a href="https://wa.me/919443742695" target="_blank" aria-label="WhatsApp">
+                                        <i class="svg fa-brands fa-whatsapp"></i>
+                                    </a>
+                                    <div class="text">WhatsApp</div>
+                                </li>
+                                <li class="iso-pro">
+                                    <span></span><span></span><span></span>
+                                    <a href="mailto:krishnamusicals@gmail.com" aria-label="Email">
+                                        <i class="svg fa fa-envelope"></i>
+                                    </a>
+                                    <div class="text">Email</div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer-col">
+                        <h5>Navigation</h5>
+                        <ul class="footer-links">
+                            <li><a href="#about">About us</a></li>
+                            <li><a href="#courses">Courses</a></li>
+                            <li><a href="#fees">Fee plans</a></li>
+                            <li><a href="#schedule">Schedule</a></li>
+                            <li><a href="#gallery">Gallery</a></li>
+                            <li><a href="#rules">Regulations</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h5>Top Programs</h5>
+                        <ul class="footer-links">
+                            <li><a href="#courses">Carnatic Vocal</a></li>
+                            <li><a href="#courses">Bharathanatyam</a></li>
+                            <li><a href="#courses">Keyboard Graded</a></li>
+                            <li><a href="#courses">Acoustic Guitar</a></li>
+                            <li><a href="#courses">Violin Study</a></li>
+                            <li><a href="#courses">Acoustic Drums</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h5>Academy Address</h5>
+                        <div class="footer-contact-item">
+                            <i class="fa fa-location-dot"></i>
+                            <span>New D.No.6-B, Subramaniapuram 2nd Street, LIC Colony, R.S.Puram, Coimbatore –
+                                641002</span>
+                        </div>
+                        <div class="footer-contact-item">
+                            <i class="fa fa-phone"></i>
+                            <span>Office: 0422-4507493</span>
+                        </div>
+                        <div class="footer-contact-item">
+                            <i class="fa fa-mobile-screen"></i>
+                            <span>Mobile: 94437 42695</span>
+                        </div>
+                        <div class="footer-contact-item">
+                            <i class="fa fa-envelope"></i>
+                            <span>krishnamusicals@gmail.com</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="footer-bottom">
+                <p>© 2026 Krishnanjali Musical Training Centre. All rights reserved. | R.S.Puram, Coimbatore</p>
+                <div class="footer-bottom-right">
+                    <span class="admission-open-badge">🎵 Weekend Admissions Open</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- FLOATING BACK TO TOP BUTTON -->
+    <button id="backTop" onclick="window.scrollTo({top:0, behavior:'smooth'})" aria-label="Scroll Back To Top">
+        <i class="fa fa-chevron-up"></i>
+    </button>
+
+    <!-- QUICK ENQUIRY PROGRAM MODAL -->
+    <div id="enquiryModal">
+        <div class="modal-content">
+            <button class="modal-close-btn" onclick="closeModal()" aria-label="Close Modal">✕</button>
+            <h3 class="modal-title">Enquire: <span id="modalCourse"></span></h3>
+            <div class="form-group">
+                <label for="mName">Your Full Name *</label>
+                <input type="text" id="mName" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+                <label for="mPhone">Mobile Number *</label>
+                <input type="tel" id="mPhone" placeholder="Enter mobile number">
+            </div>
+            <button class="form-submit" onclick="submitModal()" style="margin-top: 1rem;"><i
+                    class="fa-brands fa-whatsapp"></i> Enquire Via WhatsApp 📱</button>
+        </div>
+    </div>
+
+    <!-- 3D WebGL Library dependencies -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/OrbitControls.js"></script>
+
+    <!-- Scripts -->
+    <script src="scripts.js"></script>
+</body>
+
+</html>
